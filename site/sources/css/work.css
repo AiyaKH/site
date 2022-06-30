@@ -1,0 +1,359 @@
+html, body {
+	width: 1440px;
+	height: 900px;
+	margin:0;
+	padding-top: 0;
+	overflow: hidden;
+}
+@media (max-width: 1440px) {
+	.html .body {
+		max-width: 1366px;
+	}
+}
+@media (max-width: 1024px) {
+	.html .body {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.html .body {
+		max-width: none;
+	}
+}
+body {
+	background: url(../images/bg.png) no-repeat;
+	font-family: "SKPrimoRegular";
+}
+@font-face {
+    font-family: "SKPrimoRegular";
+    src: url("../fonts/SKPrimoRegular/SKPrimoRegular.eot");
+    src: url("../fonts/SKPrimoRegular/SKPrimoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SKPrimoRegular/SKPrimoRegular.woff") format("woff"),
+    url("../fonts/SKPrimoRegular/SKPrimoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+.startgamediv .chit p {
+	font-size: 52px;
+	font-weight: bold;
+}
+.sgdld .chit {
+	margin-left: 3%;
+	font-size: 52px;
+	font-weight: bold;
+}
+.sgdld p {
+	margin: 10;
+}
+.sgdrd {
+	width: 100%;
+	margin-top:10%;
+	max-width: 1440px;
+	max-height: 400px;
+	margin-bottom: 5%;
+}
+@media (max-width: 1440px) {
+	.sgdrd {
+		max-width: 1366px;
+	}
+}
+@media (max-width: 1024px) {
+	.sgdrd {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.sgdrd {
+		max-width: none;
+	}
+}
+.polzch {
+	cursor: pointer;
+}
+.letch {
+	cursor: pointer;
+}
+.zemch {
+	cursor: pointer;
+}
+.btnsg {
+	float:right;
+	margin-right: 100px;
+	display:flex;
+	background-image: url(../images/button.svg);
+	width: 36vh;
+	height:32vh;
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	justify-content: center;
+  	align-items: center;
+  	cursor: pointer;
+}
+@media (max-width: 1440px) {
+	.btnsg {
+		max-width: 1366px;
+	}
+}
+@media (max-width: 1024px) {
+	.btnsg {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.btnsg {
+		max-width: none;
+	}
+}
+.changeins .labirint .polzgame {
+	display: none !important;
+}
+.insects {
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.insects > div {
+	width: 300px;
+    background: transparent;
+    height: 340px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.polzgame {
+	width: 1440px;
+	height: 900px;
+}
+.polzgamediv {
+	width:1440px;
+	height: 900px;
+	background-color: #75bf44;
+	margin: 0;
+	padding: 0;
+}
+
+.prep {
+	width: 20px;
+	height: 50px;
+	background-image: url(../images/prep.png);
+	background-size: 20px 50px;
+	position: relative;
+}
+#prep1 {
+	top: 800px;
+	left: 120px;
+}
+
+.gameoverZhukDiv .gamewinZhukDiv  {
+	display: none;
+	width: 1440px;
+	height: 900px !important;
+	background-color: #75bf44 !important;
+	font-size:58px;
+	position: absolute;
+	top:0;
+	z-index:9999;
+}
+.gameoverZemDiv {
+	display: none;
+	width: 1440px;
+	height: 900px !important;
+	background-color: #6e6323 !important;
+	font-size:58px;
+	position: absolute;
+	top:0;
+	z-index:9999;
+
+}
+.gameoverBeeDiv {
+	display: none;
+	width: 1440px;
+	height: 900px !important;
+	background-color: #61c6b2 !important;
+	font-size:58px;
+	position: absolute;
+	top:0;
+	z-index:9999;
+	padding-top:0px;
+}
+.gamewinBeeDiv {
+	display: none;
+	width: 1440px;
+	height: 900px !important;
+	background-color: #61c6b2 !important;
+	font-size:58px;
+	position: absolute;
+	top:0;
+	z-index:9999;
+	padding-top:0px;
+}
+.gamewinZemDiv {
+	display: none;
+	width: 1440px;
+	height: 900px !important;
+	background-color: #6e6323 !important;
+	font-size:58px;
+	position: absolute;
+	top:0;
+	z-index:9999;
+	padding-top:0px;
+}
+.gozhukgodiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gobeegodiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gozemgodiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gwzhukgwdiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gwbeegwdiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gwzemgwdiv {
+	padding-top:50px;
+	width: 1440px;
+	height: 40%;
+	text-align: center;
+	font-size:48px;
+}
+.gozhukscorediv {
+	width:1440px;
+	height: 40%;
+	padding-top:10%;
+	font-size:48px;
+	text-align: center;
+}
+.gobeescorediv {
+	width:1440px;
+	height: 20%;
+	padding-top:3%;
+	font-size:48px;
+	text-align: center;
+}
+.gozemscorediv {
+	width:1440px;
+	height: 20%;
+	padding-top:3%;
+	font-size:48px;
+	text-align: center;
+}
+.gwzhukscorediv {
+	width:1440px;
+	height: 40%;
+	padding-top:10%;
+	font-size:48px;
+	text-align: center;
+}
+.gwbeescorediv {
+	width:1440px;
+	height: 40%;
+	padding-top:10%;
+	font-size:48px;
+	text-align: center;
+}
+.gwzemscorediv {
+	width:1440px;
+	height: 40%;
+	padding-top:10%;
+	font-size:48px;
+	text-align: center;
+}
+.regamezhuk {
+	padding-top:50px;
+	width:1440px;
+	height:200px;
+	background-color: #75bf44;
+}
+.regamebee {
+	padding-top:50px;
+	width:1440px;
+	background-color: #61c6b2;
+}
+.regamezem {
+	padding-top:50px;
+	width:1440px;
+	background-color: #6e6323;
+}
+.reszhuk {
+	width:47%;
+	float:left;
+	display: inline-block;
+	padding-left: 2%;
+}
+.resbee {
+	width:47%;
+	float:left;
+	display: inline-block;
+	padding-left: 2%;
+	text-align: left;
+}
+.reszem {
+	width:47%;
+	float:left;
+	display: inline-block;
+	padding-left: 2%;
+	text-align: left;
+}
+.mmzhuk {
+	width:47%;
+	float:right;
+	display: inline-block;
+	text-align: right;
+	padding-right: 2%;
+}
+.mmbee {
+	width:47%;
+	float:right;
+	display: inline-block;
+	text-align: right;
+	padding-right: 2%;
+}
+.mmzem {
+	width:47%;
+	float:right;
+	display: inline-block;
+	text-align: right;
+	padding-right: 2%;
+}
+a {
+	font-size:48px;
+	text-decoration: none;
+	color:black;
+}
+h1 p {
+	margin-top: 0 !important;
+}
+#labirintImg {
+	display: none;
+}
+#zemleroy {
+	display: none;
+}
