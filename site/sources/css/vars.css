@@ -1,0 +1,6 @@
+$default: rgba(90, 90, 90, 100);
+
+%title-font{
+  font-family: 'Scheherazade New', serif;
+  font-weight: 400;
+}
